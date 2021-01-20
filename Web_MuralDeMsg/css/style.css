@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    font-family: Cursive;
+    width: 1349px;
+    overflow-y: hidden;
+}
+
+#buttons{
+    position: relative;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+#button1{
+    background-color: #3c3c3c;
+    color: white;
+}
+
+#button2{
+    background-color: orange;
+    color: white;
+}
+
+#button3{
+    background-color: #e2e7e4;
+    color: rgb(0, 0, 0);
+}
+
+#mensages{
+    justify-content: center;
+    background-color: navy;
+    padding: 200px;
+    margin: 40px 400px 0px 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 5px white;  
+}
+
+#mensages div{
+    position: relative;
+    bottom: 100px;
+}
+
+#buttonCredit{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 92%;
+    right: 2px;
+    bottom: 280px;
+    background-color: black;
+    color: white;
+}
+
+button{
+    margin-right: 10px;
+    background-color: #000000;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 1.5px 0 1px #778899;
+    transition: box-shadow 0.09s, transform 0.09s ;
+    
+    border-color: #778899;
+
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cursive;
+}
+
+button:active{
+    box-shadow: 0 0 0 #778899, inset 3px 3px 3px #778899;
+    transform: translate(4px, 4px);
+}
+
+#buttonSubmit{
+    position: relative;
+    top: 20px;
+    left: 150px;
+    background-color: #1E90FF;
+}
+
+#mensageBoard_G{
+    position: relative;
+    bottom: 250px;
+    left: 215px;
+    width: 580px;
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #cfcfc4;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+#mensage{
+    position: relative;
+    right: 35px;
+}
+
+#name{
+    position: relative;
+    right: 35px;
+}
+
+#mensages label{
+    position: relative;
+    right: 35px;
+    color: white
+}
+
